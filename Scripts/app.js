@@ -79,7 +79,7 @@ I've been a part time streamer for around 2 years now, first getting into it whi
 I've played competitively in multiple games over the years.
 I look forward to having a better schedule that will allow me to grow my community further.
 
-Third Project - Video Games
+3rd Project - Video Games
 I imagine it doesn't come as a surprise that someone who streams also partakes in video games.
 I've been playing games since I was a toddler when I got my first console (the NES).
 Since then I've jumped from platform to platform finally landing on PC gaming. 
