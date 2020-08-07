@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./Contents/app.css">
+</head>
+<body>
+
+    <!-- Main Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <a class="navbar-brand" href="index.html">
+              <img src="./Assets/images/Logo.png" width="30" height="30" alt="Logo" loading="Lazy">
+        </a> 
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"><i class="fas fa-user"></i></i> About Me</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html"><i class="fas fa-phone"></i></i></i> Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Projects.html"><i class="fas fa-map-pin"></i></i> Projects</a>
+                </li>
+                
+                             </ul>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="display-4">Contact Me!</h1>
+            <hr>
+            <form>
+              <div class="form-group">
+                <label for="firstname">First Name</label>
+                <input type="text" class="form-control" id="firstname" name="firstname" aria-describedby="firstname"
+                placeholder="Enter Your First Name" required>
+              </div>                    
+
+              <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input type="text" class="form-control" id="lastname" name="lastname" aria-describedby="lastname"
+                placeholder="Enter Your Last Name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactNumber">Contact Number</label>
+                <input type="tel" class="form-control" id="contactNumber" name="contactNumber" aria-describedby="contactNumber"
+                placeholder="Enter Your Contact Number" required>
+              </div>
+
+
+              <div class="form-group">
+                <label for="emailAddress">Email address</label>
+                <input type="email" class="form-control" id="emailAddress" name="emailAddress" aria-describedby="emailAddress"
+                placeholder="Enter your Email Address" required>
+              </div>
+
+              <div class="form-group">
+                <label for="textArea">Your Message</label>
+                <textarea class="form-control" id="textArea" name="textArea" rows="3" aria-describedby="emailAddress"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg"> <i class="fas fa-envelope-square"></i> Send</button>
+
+              <button type="reset" class="btn btn-warning btn-lg"> <i class="fas fa-trash"></i></i> Reset</button>
+            </form>
+              
+        </div>
+    </main>
+    
+    <footer>
+        <nav class="navbar fixed-bottom navbar-light" style="background-color: lightseagreen;">
+            <h4>&copy; CopyRight 2020. All Rights Reserved.</h4>
+        </nav>
+    </footer>
+
+
+    <!-- JavaScript Section -->
+
+    <!-- 3rd Party JavaScript Libraries -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- App Scripts -->
+    <script src="./Scripts/app.js"></script>
+</body>
+</html>
