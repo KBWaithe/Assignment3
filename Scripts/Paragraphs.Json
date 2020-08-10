@@ -3,27 +3,27 @@
     [
         {
             "id": "myName",
-            "Content": "My name is Kris Waithe"
+            "data": "My name is Kris Waithe"
         },
         {
             "id": "welcomeMessage",
-            "Content": "Welcome to my Portfolio!"
+            "data": "Welcome to my Portfolio!"
         },
         {
             "id": "aboutText",
-            "Content": "<p>I'm a second semester Software Engineering Tecnologies student looking to further my knowledge in the field of tech.</p>, <p>I have always found interest in the tech side of everything and I look forward to learning much more as a student at Centennial College!</p>"
+            "data": "<p>I'm a second semester Software Engineering Tecnologies student looking to further my knowledge in the field of tech.</p>, <p>I have always found interest in the tech side of everything and I look forward to learning much more as a student at Centennial College!</p>"
         },
         {
             "id": "projects",
-            "Content": "My Projects!"
+            "data": "My Projects!"
         },
         {
             "id": "projectsText",
-            "Content": "<h6>1st Project - Guitar</h6> <p>I'm a casual guitar player who's played many instruments since middle school. Recently my guitar colection has grown with a fender acoustic!</p> <p>I've dabbled in music since I was a child; and music, as well as playing instruments, is a gigantic part of who I am.</p> <h6>2nd Project - Streaming</h6> <p>I've been a part time streamer for around 2 years now, first getting into it while competiting in a few online games.</p> <p>I've played competitively in multiple games over the years.</p> <p>I look forward to having a better schedule that will allow me to grow my community further.</p> <h6>3rd Project - Video Games</h6> <p>I imagine it doesn't come as a surprise that someone who streams also partakes in video games.</p> <p>I've been playing games since I was a toddler when I got my first console (the NES).</p> <p>Since then I've jumped from platform to platform finally landing on PC gaming.</p> <p>I'm also some what of a collector having memorabilia from all kinds of games and platforms!</p>"
+            "data": "<h6>1st Project - Guitar</h6> <p>I'm a casual guitar player who's played many instruments since middle school. Recently my guitar colection has grown with a fender acoustic!</p> <p>I've dabbled in music since I was a child; and music, as well as playing instruments, is a gigantic part of who I am.</p> <h6>2nd Project - Streaming</h6> <p>I've been a part time streamer for around 2 years now, first getting into it while competiting in a few online games.</p> <p>I've played competitively in multiple games over the years.</p> <p>I look forward to having a better schedule that will allow me to grow my community further.</p> <h6>3rd Project - Video Games</h6> <p>I imagine it doesn't come as a surprise that someone who streams also partakes in video games.</p> <p>I've been playing games since I was a toddler when I got my first console (the NES).</p> <p>Since then I've jumped from platform to platform finally landing on PC gaming.</p> <p>I'm also some what of a collector having memorabilia from all kinds of games and platforms!</p>"
         },
         {
             "id": "Contact Me!",
-            "Content": "Please send me a message for further inquiries!"
+            "data": "Please send me a message for further inquiries!"
         }
     ]
 }

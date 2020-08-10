@@ -6,13 +6,6 @@ Mini Portfolio using JSON and AJAX
 
 "use strict";
 
-/* 
-1. Console 
-2. Header + Footer
-3. Content
-*/
-
-function displayOutput()
 
 function setNavigation()
 {
@@ -69,13 +62,26 @@ XHR.addEventListener("readystatechange", function(){
 });
 }
 
-function loadParagraphs()
-{
-let xhrText;
 
-if ((xhrText.readyState === 4) && (xhrText.responseText))
-{
-    
-}
 
-}
+function loadParagraphsData()
+{
+    let XHR = new XMLHttpRequest();
+
+    XHR.open("GET", "Scripts/paragraphs.json");
+
+    XHR.send();
+
+    XHR.addEventListener("readystatechange", function(){
+        if((XHR.readyState ===4 ) && (XHR.status === 200))
+        {
+            console.log(XHR.responseText);
+        }
+    }); 
+} 
+        
+
+
+
+
+
