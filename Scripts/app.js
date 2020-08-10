@@ -12,7 +12,9 @@ Mini Portfolio using JSON and AJAX
 3. Content
 */
 
-function setNavigation
+function displayOutput()
+
+function setNavigation()
 {
     if (document.title == "About Me" || document.title == "Projects" || document.title == "Contact")
     {
@@ -24,7 +26,7 @@ function setNavigation
 loadHeader();
 function loadHeader()
 {
-    console.info("Loading Header");
+    console.info("Loading Header...");
 // Create Object
 let XHR = new XMLHttpRequest();
 // Configuration
@@ -40,13 +42,40 @@ XHR.addEventListener("readystatechange", function(){
     let headerData = XHR.responseText
 
     header.innerHTML = headerData;
-}});
+}
+});
 }
 
-let XHR
-
-function readTexts()
+loadFooter();
+function loadFooter()
 {
-    if ((XHR.readyState === 4) && (XHR.status === 200))
+    console.info("Loading Footer...");
+// Create Object
+let XHR = new XMLHttpRequest();
+// Configuration
+XHR.open("GET", "./Views/Partials/Footer.html")
+// Execute
+XHR.send();
+// Register ReadyState Event
+XHR.addEventListener("readystatechange", function(){
+   if((XHR.readyState === 4) && (XHR.status === 200))
+{
+    let footer = document.getElementsByTagName("Footer")[0];
+
+    let footerData = XHR.responseText
+
+    footer.innerHTML = footerData;
+}
+});
 }
 
+function loadParagraphs()
+{
+let xhrText;
+
+if ((xhrText.readyState === 4) && (xhrText.responseText))
+{
+    
+}
+
+}
